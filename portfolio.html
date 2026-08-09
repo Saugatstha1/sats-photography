@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio | Sat's Photography</title>
+<meta name="description" content="Browse portrait, event and lifestyle photography by Sat's Photography, filterable by session type.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<header class="site-header">
+  <nav class="nav-bar" aria-label="Main navigation">
+    <a href="index.html" class="wordmark">
+      <svg class="frame-mark" width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+        <rect x="1" y="1" width="24" height="24" rx="2" stroke="#F1E7EE" stroke-width="1.4"/>
+        <circle cx="13" cy="13" r="6" stroke="#E2879C" stroke-width="1.4"/>
+        <circle cx="13" cy="13" r="1.6" fill="#E2879C"/>
+      </svg>
+      Sat's Photography
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation menu">&#9776;</button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Book a Session</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="sprocket-strip" aria-hidden="true"></div>
+
+<main id="main">
+  <section>
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow">Selected Work</span>
+        <h2>Portfolio</h2>
+        <p>A running, hand-picked record of recent sessions. Filter by type, or browse everything below.</p>
+      </div>
+
+      <div class="filter-row" role="group" aria-label="Filter portfolio by category">
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="portrait" aria-pressed="false">Portraits</button>
+        <button type="button" data-filter="event" aria-pressed="false">Events</button>
+        <button type="button" data-filter="lifestyle" aria-pressed="false">Lifestyle</button>
+      </div>
+
+      <div class="journal-list">
+
+        <article class="journal-entry" data-category="portrait">
+          <div class="thumb"><div class="frame"><img src="images/hero-waterfront.jpg" alt="Two people sitting on a waterfront wall at dusk, silhouetted against the harbour and buildings" loading="lazy"></div></div>
+          <div class="content">
+            <span class="date">Jul 2026 &middot; Golden Hour, Harbourside</span>
+            <h3><a href="contact.html">An Evening by the Water</a></h3>
+            <p>A quiet, unposed portrait session timed for last light — silhouettes and skyline over a directed pose.</p>
+            <span class="price-tag">35mm &middot; f/2.8 &middot; dusk</span><br>
+            <a href="contact.html" class="more">[ Enquire about a session like this ]</a>
+          </div>
+        </article>
+
+        <article class="journal-entry flip" data-category="event">
+          <div class="thumb"><div class="frame"><img src="images/concert-bw-wide.jpg" alt="Black and white wide shot of a live band performing on stage, with 'Bartika Eam Rai' projected behind them" loading="lazy"></div></div>
+          <div class="content">
+            <span class="date">Jun 2026 &middot; Live at the Venue</span>
+            <h3><a href="contact.html">A Night of Live Music</a></h3>
+            <p>Full-set coverage for a live show — wide stage shots alongside tighter frames of each performer.</p>
+            <span class="price-tag">70mm &middot; f/2.8 &middot; ISO 1600</span><br>
+            <a href="contact.html" class="more">[ Enquire about a session like this ]</a>
+          </div>
+        </article>
+
+        <article class="journal-entry" data-category="lifestyle">
+          <div class="thumb"><div class="frame"><img src="images/bar-shelf.jpg" alt="A glass display cabinet filled with bottles, dried flowers, tea tins and old books, lit warmly from within" loading="lazy"></div></div>
+          <div class="content">
+            <span class="date">Jun 2026 &middot; Bar Interior, Detail Shots</span>
+            <h3><a href="contact.html">Cabinet of Curiosities</a></h3>
+            <p>Interior detail photography for a bar's shelving and styling — the kind of shots that end up on a menu or a wall.</p>
+            <span class="price-tag">50mm &middot; f/2.0 &middot; ISO 800</span><br>
+            <a href="contact.html" class="more">[ Enquire about a session like this ]</a>
+          </div>
+        </article>
+
+        <article class="journal-entry flip" data-category="portrait">
+          <div class="thumb"><div class="frame"><img src="images/street-corner-mural.jpg" alt="A man seen from behind at a street crossing, facing a building painted with the words 'Last Humans' and 'Born'" loading="lazy"></div></div>
+          <div class="content">
+            <span class="date">May 2026 &middot; Street Corner Portrait</span>
+            <h3><a href="contact.html">Waiting for the Light</a></h3>
+            <p>A candid street portrait built around the city itself — architecture and signage doing half the storytelling.</p>
+            <span class="price-tag">50mm &middot; f/4.0 &middot; ISO 200</span><br>
+            <a href="contact.html" class="more">[ Enquire about a session like this ]</a>
+          </div>
+        </article>
+
+        <article class="journal-entry" data-category="event">
+          <div class="thumb"><div class="frame"><img src="images/concert-color.jpg" alt="A band performing on stage under blue and purple lights, with 'Bartika Eam Rai' projected on the backdrop" loading="lazy"></div></div>
+          <div class="content">
+            <span class="date">May 2026 &middot; Live Set, Full Colour</span>
+            <h3><a href="contact.html">Stage Lights, Full Band</a></h3>
+            <p>Colour-forward coverage of a live performance, leaning into the venue's own lighting rather than fighting it.</p>
+            <span class="price-tag">35mm &middot; f/2.8 &middot; ISO 1250</span><br>
+            <a href="contact.html" class="more">[ Enquire about a session like this ]</a>
+          </div>
+        </article>
+
+        <article class="journal-entry flip" data-category="lifestyle">
+          <div class="thumb"><div class="frame"><img src="images/food-gyoza.jpg" alt="Overhead shot of a plate of pan-fried gyoza with dipping sauce beside a plate of karaage chicken" loading="lazy"></div></div>
+          <div class="content">
+            <span class="date">Apr 2026 &middot; Restaurant Content Day</span>
+            <h3><a href="contact.html">A Table Worth Photographing</a></h3>
+            <p>Overhead food photography for a restaurant's menu and socials — natural light, no styling tricks, just good food.</p>
+            <span class="price-tag">35mm &middot; f/2.5 &middot; ISO 640</span><br>
+            <a href="contact.html" class="more">[ Enquire about a session like this ]</a>
+          </div>
+        </article>
+
+      </div>
+
+      <p class="pagination">1 <a href="#main">2</a> <a href="#main">Next Page &rarr;</a></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="who">
+        <span>Sat's Photography</span>
+        <span>&copy; 2026 &mdash; Sydney, Australia</span>
+        <span>nepalipapi@gmail.com</span>
+      </div>
+      <div class="who" style="text-align:right;">
+        <a href="contact.html">Book a session &rarr;</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
